@@ -38,7 +38,7 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
@@ -49,7 +49,21 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Team News Letter</a>
+                </li> -->
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#our-teams">Our Teams</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact-us">Contact Us</a>
+                </li>
+
             </ul>
     </nav>
     </div>
@@ -58,7 +72,8 @@
         <div class="overlay"></div>
 
         <video class="background-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-            <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+            <!-- <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4"> -->
+            <source src="/assets/video-header.mp4" type="video/mp4">
         </video>
 
         <div class="container h-100">
@@ -73,7 +88,7 @@
 
     <section class="my-5">
         <!-- About -->
-        <div class="container">
+        <div id="about" class="container">
             <div class="text-center">
                 <div class="text-center">
                     <h1 class="display-4">About</h1>
@@ -102,7 +117,7 @@
     </section>
 
     <section class="my-5">
-        <div class="container pt-5">
+        <div id="our-teams" class="container pt-5">
             <div class="text-center">
                 <div class="text-center">
                     <h1 class="display-4">Our Teams</h1>
@@ -110,7 +125,7 @@
             </div>
         </div>
 
-        <div class="container mx-auto text-center py-5">
+        <div class="container mx-auto text-center pt-5"> <!-- py-5 -->
             <div class="container justify-content-center" style="content: ''; display: table; clear: both;">
                 <div class="container" style="float: left; width: 50%;">
                     <!-- 19922 -->
@@ -119,8 +134,8 @@
                             <div class="text-center">
                                 <h3>Team 19922, The Iron Lions</h3>
 
-                                <button type="button" class="btn btn-outline-dark rh-themed-button my-3"
-                                    id="jvTeamButton">The Team</button>
+                                <!-- <button type="button" class="btn btn-outline-dark rh-themed-button my-3"
+                                    id="jvTeamButton">The Team</button> -->
 
                                         <p>The Iron Lions 19922, a team based at Rowland Hall in Salt Lake City, was
                                             created as
@@ -139,9 +154,9 @@
                             <div class="text-center">
                                 <h3>Team 16748, The Monochromats</h3>
 
-                                <button type="button" class="btn btn-outline-dark rh-themed-button my-3"
+                                <!-- <button type="button" class="btn btn-outline-dark rh-themed-button my-3"
                                     id="vTeamButton">The
-                                    Team</button>
+                                    Team</button> -->
 
                                         <p>The Monochromats, or 16748, was formed in 2019 after an interest in competing
                                             in FTC was
@@ -210,7 +225,7 @@
 
     </section>
     <!-- Contact Us -->
-    <div class="container pt-5">
+    <div id="contact-us" class="container pt-5">
         <div class="text-center">
             <div class="text-center">
                 <h1 class="display-4">Contact Us</h1>
@@ -252,11 +267,11 @@
                     <a href="https://www.instagram.com/rh_robotics_16748/?utm_medium=copy_link"><i
                             class="fab fa-instagram px-3" style="font-size:30px; color: black"></i></a>
 
-                    <a href="https://www.youtube.com/channel/UCuW5QlsPuTBeuM8zGqSaGgw/featured"><i
+                    <!-- <a href="https://www.youtube.com/channel/UCuW5QlsPuTBeuM8zGqSaGgw/featured"><i
                             class="fab fa-facebook px-3" style="font-size:30px; color: black; "></i></a>
 
                     <a href="https://www.youtube.com/channel/UCuW5QlsPuTBeuM8zGqSaGgw/featured"><i
-                            class="fab fa-twitter px-3" style="font-size:30px; color: black; "></i></a>
+                    class="fab fa-twitter px-3" style="font-size:30px; color: black; "></i></a> -->
                 </div>
             </div>
         </div>
@@ -271,6 +286,8 @@
             <div class="mx-auto text-center p-4 text-muted">
                 <h6>Rowland Hall Robotics</h6>
 
+                Website made from scratch with ❤️ by Milo Banks.
+                </br>
                 © 2022 Copyright Rowland Hall
             </div>
         </section>
@@ -287,7 +304,7 @@
 
     <script>
         $(document).ready(function () {
-            let jvAboutUsNovel = true;
+            /* let jvAboutUsNovel = true;
             let vAboutUsNovel = true;
 
             $('#jvTeamButton').click(function () {
@@ -326,7 +343,7 @@
                     $('#mapCollapse').collapse('hide');
                     $('#mapButton').html('Show Map');
                 }
-            })
+            }) */
         });
     </script>
 </body>
