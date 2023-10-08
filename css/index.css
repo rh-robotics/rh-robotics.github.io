@@ -10,38 +10,38 @@ header {
 }
 
 h1 {
-    font-family: adobe-garamond-pro, serif;
-    font-style: bold;
+	font-family: adobe-garamond-pro, serif;
+	font-style: bold;
 }
 
 h2 {
-    font-family: adobe-garamond-pro, serif;
-    font-style: bold;
+	font-family: adobe-garamond-pro, serif;
+	font-style: bold;
 }
 
 h3 {
-    font-family: adobe-garamond-pro, serif;
-    font-style: bold;
+	font-family: adobe-garamond-pro, serif;
+	font-style: bold;
 }
 
 p {
-    font-family: TradeGothic, serif;
-    font-style: regular;
+	font-family: TradeGothic, serif;
+	font-style: regular;
 }
 
 .mini-name {
-    font-family: adobe-garamond-pro, serif;
-    font-style: medium;
+	font-family: adobe-garamond-pro, serif;
+	font-style: medium;
 }
 
 .sub-title {
-    font-family: adobe-garamond-pro, serif;
-    font-style: italic; 
+	font-family: adobe-garamond-pro, serif;
+	font-style: italic;
 }
 
 .background-video {
-    object-fit: cover;
-    width: 100%;
+	object-fit: cover;
+	width: 100%;
 }
 
 header video {
