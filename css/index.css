@@ -81,6 +81,18 @@ header .overlay {
 	color: white;
 }
 
+.navbar {
+	background-color: #00723F !important;
+}
+
+.nav-link {
+	color: #FFFFFF !important;
+}
+
+.navbar-brand {
+	color: #FFFFFF !important;
+}
+
 hr {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
@@ -112,7 +124,7 @@ panel-body {
 
 @media (pointer: coarse) and (hover: none) {
 	header {
-		background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+		background: url('https://www.firstinspires.org/sites/all/themes/first/assets/images/2020/ftc/event-experience.jpg') black no-repeat center center scroll;
 	}
 
 	header video {
