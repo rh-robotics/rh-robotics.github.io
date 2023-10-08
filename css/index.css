@@ -85,6 +85,11 @@ header .overlay {
 	background-color: #00723F !important;
 }
 
+footer {
+	background-color: #00723F !important;
+	color: #FFFFFF !important;
+}
+
 .nav-link {
 	color: #FFFFFF !important;
 }
