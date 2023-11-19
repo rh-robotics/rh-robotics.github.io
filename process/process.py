@@ -79,8 +79,11 @@ def main():
 
         print('(runtime) ' + input + ' -> ' + output + '...')
 
-        shutil.rmtree(output)
-        shutil.copytree(input, output)
+        try:
+            shutil.copytree(input, output)
+        except FileExistsError as e:
+            shutil.rmtree(output)
+            shutil.copytree(input, output)
 
     favicon_input = specification['favicon']
     favicon_output = specification['output'] + os.sep + favicon_input.split(os.sep)[-1]
