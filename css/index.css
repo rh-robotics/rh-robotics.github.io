@@ -24,6 +24,21 @@ h3 {
 	font-style: bold;
 }
 
+h4 {
+	font-family: adobe-garamond-pro, serif;
+	font-style: bold;
+}
+
+h5 {
+	font-family: adobe-garamond-pro, serif;
+	font-style: bold;
+}
+
+h6 {
+	font-family: adobe-garamond-pro, serif;
+	font-style: bold;
+}
+
 p {
 	font-family: TradeGothic, serif;
 	font-style: regular;
@@ -121,6 +136,14 @@ hr {
 
 panel-body {
 	border-top: 0 !important;
+}
+
+img {
+	transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+img:hover {
+	transform: scale(1.005);
 }
 
 /* Media Query for devices withi coarse pointers and no hover functionality */

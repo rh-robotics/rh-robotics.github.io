@@ -1,0 +1,8 @@
+---
+templates: templates
+content: content
+output: dist
+runtime:
+  - css
+  - assets
+favicon: assets/favicon.ico

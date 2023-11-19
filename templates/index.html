@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/index.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,500&amp;display=swap"
+        rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/7166a11b40fc6e9aba2d07da4de98eca?family=TradeGothic" rel="stylesheet"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/typekit.css">
+
+    <title>Rowland Hall Robotics</title>
+</head>
+
+<body data-new-gr-c-s-check-loaded="8.893.0" data-gr-ext-installed="">
+    <!-- Navbar -->
+    {% with occlude=true %}
+    {% include 'navbar.html' %}
+    {% endwith %}
+
+    <header>
+        <div class="overlay"></div>
+
+        <video class="background-video" id="background-video" playsinline="playsinline" autoplay="autoplay"
+            muted="muted" loop="loop">
+            <source src="/assets/banner.mp4" type="video/mp4">
+        </video>
+
+        <div class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+                    <h1 class="display-1">Rowland Hall Robotics</h1>
+                    <p class="lead mb-0 sub-title">Dare to inspire; inspire to innovate.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    {{ rendered }}
+
+    {% include 'footer.html' %}
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function () {
+            let backgroundVideo = $('#background-video');
+
+            backgroundVideo.autoplay = true;
+            backgroundVideo.load();
+        });
+
+        $(document).ready(function () {
+            let jvTeamButton = $('#jvTeamButton');
+            let jvTeamCollapse = $('#jvTeamCollapse');
+            let vTeamButton = $('#vTeamButton');
+            let vTeamCollapse = $('#vTeamCollapse');
+
+            jvTeamButton.click(function () {
+                vTeamCollapse.collapse('hide');
+                vTeamButton.html('The Team');
+
+                if (jvTeamButton.html().trim() == 'The Team') {
+                    jvTeamCollapse.collapse('show');
+                    jvTeamButton.html('Close');
+                } else if (jvTeamButton.html() == 'Close') {
+                    jvTeamCollapse.collapse('hide');
+                    jvTeamButton.html('The Team');
+                }
+            });
+
+            vTeamButton.click(function () {
+                jvTeamCollapse.collapse('hide');
+                jvTeamButton.html('The Team');
+
+                if (vTeamButton.html().trim() == 'The Team') {
+                    vTeamCollapse.collapse('show');
+                    vTeamButton.html('Close');
+                } else if (vTeamButton.html() == 'Close') {
+                    vTeamCollapse.collapse('hide');
+                    vTeamButton.html('The Team');
+                }
+            });
+        });
+
+        $(document).ready(function () {
+            let mapButton = $('#mapButton');
+            let mapCollapse = $('#mapCollapse')
+
+            mapButton.click(function () {
+                if (mapButton.html().trim() == 'Show Map') {
+                    mapCollapse.collapse('show');
+                    mapButton.html('Hide Map')
+                } else {
+                    mapCollapse.collapse('hide');
+                    mapButton.html('Show Map');
+                }
+            })
+        });
+    </script>
+</body>
+
+</html>
