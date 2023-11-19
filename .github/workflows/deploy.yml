@@ -40,7 +40,9 @@ jobs:
           pip install -r requirements.txt
 
       - name: Render website
-        run: python process/process.py -s website.yaml
+        run: |
+          mkdir dist
+          python process/process.py -s website.yaml
 
       - name: Deploy to GitHub Pages
         uses: actions/upload-pages-artifact@v1
