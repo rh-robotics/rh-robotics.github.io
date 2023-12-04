@@ -130,7 +130,7 @@ engineering, software engineering, and marketing.
             <div class="container mx-auto text-center">
                 <div class="row justify-content-center">
                     <div class="col-xs-6 px-5">
-## >Hardware
+## Hardware
 Jett Winkler
 
 Spencer Brady
@@ -153,7 +153,7 @@ Spencer Brady
 ## Software
 Rayne Weinstein (Cool Lead)
 
-
+Sadie Datoo
 
 George Jensen
 
