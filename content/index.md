@@ -137,8 +137,6 @@ Spencer Brady
 
 Joey Lieskovan
 
-Sadie Datoo
-
 Hasan Rahim
                     </div>
                     <div class="col-xs-6 px-5">
@@ -153,7 +151,9 @@ Spencer Brady
                     </div>
                     <div class="col-xs-6 px-5">
 ## Software
-Rayne Weinstein (Lead)
+Rayne Weinstein (Cool Lead)
+
+
 
 George Jensen
 
