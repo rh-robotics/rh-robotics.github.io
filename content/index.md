@@ -130,14 +130,12 @@ engineering, software engineering, and marketing.
             <div class="container mx-auto text-center">
                 <div class="row justify-content-center">
                     <div class="col-xs-6 px-5">
-## >Hardware
+## Hardware
 Jett Winkler
 
 Spencer Brady
 
 Joey Lieskovan
-
-Sadie Datoo
 
 Hasan Rahim
                     </div>
@@ -154,6 +152,8 @@ Spencer Brady
                     <div class="col-xs-6 px-5">
 ## Software
 Rayne Weinstein (Lead)
+
+Sadie Datoo
 
 George Jensen
 
