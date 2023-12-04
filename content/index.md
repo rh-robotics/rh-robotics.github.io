@@ -151,7 +151,7 @@ Spencer Brady
                     </div>
                     <div class="col-xs-6 px-5">
 ## Software
-Rayne Weinstein (Cool Lead)
+Rayne Weinstein (Lead)
 
 Sadie Datoo
 
