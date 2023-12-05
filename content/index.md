@@ -138,6 +138,8 @@ Spencer Brady
 Joey Lieskovan
 
 Hasan Rahim
+
+Dylan Johnson De Lacy
                     </div>
                     <div class="col-xs-6 px-5">
                         <div class="py-4">
